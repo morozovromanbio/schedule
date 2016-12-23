@@ -10,29 +10,27 @@ import java.sql.*;
  */
 public class Main {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/mydbtest";
-    private static final String USERNAME = "root";
-    private static final String PASSWORD = "root";
+    public static void main(String[] args) {
+        DBWorker worker = new DBWorker();
 
-
-
-    public static void main(String[] args){
-        Connection connection;
-
-
-
+        String query = "select * from users";
         try {
+            Statement statement = worker.getConnection().createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
 
-            Driver driver = new FabricMySQLDriver();
-            DriverManager.registerDriver(driver);
+            while (resultSet.next()){
+                User user =new User();
+              int id = resultSet.getInt(1);
+                System.out.println(id);
+               user.setUsername(resultSet.getString(2));
+               user.setPassword(resultSet.getString(3));
 
-            connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-if (!connection.isClosed()){
-    System.out.print("Connecting with db install");
-}
-        }catch (SQLException e) {
-            System.err.print("Class driver don't download");
+               System.out.println(user);
+            }
 
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
-}
+
