@@ -1,6 +1,7 @@
 package schedule;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.FileAlreadyExistsException;
 
@@ -8,19 +9,19 @@ import java.nio.file.FileAlreadyExistsException;
  * Created by Роман on 26.12.2016.
  */
 public class ShowAndOpenXmlDemo{
-    public static void Show(String args)
+    public static void Show(String args[])
 
     {
         int i;
         FileInputStream fin;
 
-        if (args.length() != 1){
+        if (args.length != 1){
             System.out.print("File use");
         }
 
             try {
-            (fin = new FileInputStream(args[0]));
-            } catch (FileAlreadyExistsException e){
+            fin = new FileInputStream(args[0]);
+            } catch (FileNotFoundException e){
             System.out.print("File don't open");
             }
 
