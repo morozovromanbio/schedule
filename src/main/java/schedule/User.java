@@ -1,8 +1,5 @@
 package schedule;
 
-/**
- * Created by Роман on 23.12.2016.
- */
 public class User {
     private int id;
     private String username;

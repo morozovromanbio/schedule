@@ -1,13 +1,9 @@
 package schedule;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 
-import com.mysql.fabric.jdbc.FabricMySQLDriver;
-
-import java.sql.*;
-
-/**
- * Created by Роман on 23.12.2016.
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -16,10 +12,11 @@ public class Main {
         String query = "select * from users";
         try {
             Statement statement = worker.getConnection().createStatement();
+
             ResultSet resultSet = statement.executeQuery(query);
 
             while (resultSet.next()){
-                User user =new User();
+                User user = new User();
               int id = resultSet.getInt(1);
                 System.out.println(id);
                user.setUsername(resultSet.getString(2));
