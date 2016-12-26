@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07fcbb98-60f4-4600-a9fd-01c766bf638c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/schedule/ShowAndOpenXmlDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/schedule/DBWorker.java" afterPath="$PROJECT_DIR$/src/main/java/schedule/DBWorker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/schedule/Main.java" afterPath="$PROJECT_DIR$/src/main/java/schedule/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/schedule/User.java" afterPath="$PROJECT_DIR$/src/main/java/schedule/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/test.sql" afterPath="$PROJECT_DIR$/src/test/resources/test.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/test.sql" afterPath="$PROJECT_DIR$/target/test-classes/test.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/schedule/ShowAndOpenXmlDemo.java" afterPath="$PROJECT_DIR$/src/main/java/schedule/ShowAndOpenXmlDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +80,8 @@
       <file leaf-file-name="ShowAndOpenXmlDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/schedule/ShowAndOpenXmlDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="380">
+              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -784,12 +778,12 @@
       <workItem from="1482476488520" duration="876000" />
       <workItem from="1482477590855" duration="4020000" />
       <workItem from="1482507122670" duration="22936000" />
-      <workItem from="1482686954221" duration="7345000" />
+      <workItem from="1482686954221" duration="7650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35177000" />
+    <option name="totallyTimeSpent" value="35482000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1046,8 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/schedule/ShowAndOpenXmlDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="380">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

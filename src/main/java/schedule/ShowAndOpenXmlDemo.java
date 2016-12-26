@@ -33,12 +33,13 @@ public class ShowAndOpenXmlDemo{
                 }while(i != -1);
             }catch (IOException e){
                 System.out.print("Error read");
-            }
+            } finally {
 
-            try {
-                fin.close();
-            } catch (IOException e){
-                System.out.print("Error have closeing file");
+                try {
+                    fin.close();
+                } catch (IOException e) {
+                    System.out.print("Error have closeing file");
+                }
             }
     }
 }
